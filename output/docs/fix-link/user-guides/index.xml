@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User-Guides on Amoro</title>
+    <link>https://amoro.apache.org/docs/fix-link/user-guides/</link>
+    <description>Recent content in User-Guides on Amoro</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://amoro.apache.org/docs/fix-link/user-guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CDC Ingestion</title>
+      <link>https://amoro.apache.org/docs/fix-link/cdc-ingestion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://amoro.apache.org/docs/fix-link/cdc-ingestion/</guid>
+      <description>CDC Ingestion CDC stands for Change Data Capture, which is a broad concept, as long as it can capture the change data, it can be called CDC. Flink CDC is a Log message-based data capture tool, all the inventory and incremental data can be captured. Taking MySQL as an example, it can easily capture Binlog data through Debezium and process the calculations in real time to send them to the data lake.</description>
+    </item>
+    <item>
+      <title>Configurations</title>
+      <link>https://amoro.apache.org/docs/fix-link/configurations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://amoro.apache.org/docs/fix-link/configurations/</guid>
+      <description>Table Configurations Multi-level configuration management Amoro provides configurations that can be configured at the Catalog, Table, and Engine levels. The configuration priority is given first to the Engine, followed by the Table, and finally by the Catalog.&#xA;Catalog: Generally, we recommend users to set default values for tables through the Catalog properties configuration, such as Self-optimizing related configurations. Table: We also recommend users to specify customized configurations when Create Table, which can also be modified through Alter Table operations.</description>
+    </item>
+    <item>
+      <title>Metrics</title>
+      <link>https://amoro.apache.org/docs/fix-link/metrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://amoro.apache.org/docs/fix-link/metrics/</guid>
+      <description>Metrics Amoro provides both table-level and platform-level metrics to help users understand the runtime status of the current table.&#xA;Table metrics The Amoro Tables details page provides multiple tabs to display the status of the table from various dimensions, mainly including:&#xA;Tab Name Description Details Display the table&amp;rsquo;s schema, primary key configuration, partition configuration, properties; as well as the metric information of the files stored in ChangeStore and BaseStore, including the number of files and average file size, as well as the latest submission time of the files.</description>
+    </item>
+    <item>
+      <title>Using Tables</title>
+      <link>https://amoro.apache.org/docs/fix-link/using-tables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://amoro.apache.org/docs/fix-link/using-tables/</guid>
+      <description>Using Tables The SQL execution tool Terminal is provided in AMS dashboard to help users quickly create, modify and delete tables. It is also available in Spark and Flink and other engines to manage tables using SQL.&#xA;Create table After logging into AMS dashboard, go to Terminal, enter the table creation statement and execute it to complete the table creation. The following is an example of table creation:&#xA;create table test_db.</description>
+    </item>
+  </channel>
+</rss>
